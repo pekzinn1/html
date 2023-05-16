@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(128, 128, 128, 0.76);
+        }
+
+        header{
+            background-color: white;
+            padding: 1px;
+            margin: auto;
+            font-size: 1em;
+        }
+
+        nav{
+            padding: 2px;
+            background-color: grey;
+            box-shadow: 7px 3px 7px rgba(0, 0, 0, 0.548);
+            border-radius: 10px;
+        }
+
+        #cabeca{
+            text-align: center;
+            padding: 2px;
+        }
+
+        nav> a{
+            color: white;
+            text-decoration: none;
+            font-weight: lighter;
+            padding-left: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: aqua;
+        }
+
+        #noticias{
+            color: white;
+            font-weight: normal;
+        }
+
+        article> h2{
+            padding: 2px;
+            text-align: center;
+            font-weight: bolder;
+            font-size: 2em;
+        }
+
+        article> aside{
+            text-align:right;
+            font-size: 0.7em;
+            font-weight: bold;
+        }
+
+        article > p{
+            text-align:center;
+            padding: 1px;
+            border: 2px;
+        }
+
+        footer{
+            background-color: black;
+            font-family: 'Courier New', Courier, monospace;
+            color: white;
+            text-align: center;
+            padding: 3px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+        
+    </style>
+    <title>Grouping Text</title>
+</head>
+<body>
+    <header>
+        <div id="cabeca">
+            <h1>Meu Site</h1>
+        </div>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias do Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In, sapiente culpa sunt obcaecati maxime vero pariatur consequatur, illum exercitationem voluptate odio amet ex animi aliquam! Cupiditate facere delectus eos id.</p>
+                <aside>
+                    Escrito por Rogerinho do Queró
+                </aside>
+            </article>
+            <article>
+            <h2>
+                Rogerio Ceni Brasileiro
+            </h2>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat repudiandae eum doloribus, cumque maiores pariatur vitae asperiores adipisci fugit totam dicta deserunt ex enim corporis blanditiis unde consectetur consequuntur dolores!
+            </p>
+            <aside>
+                Marcos Gois
+            </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo pekzinn</p>
+    </footer>
+</body>
+</html>
